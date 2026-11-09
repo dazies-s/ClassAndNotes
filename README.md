@@ -34,7 +34,6 @@ This project is scoped to be realistically completed within an 8-week timeframe 
 
 ## 6. Initial UI Sketch
 
-Here is a clear, textual breakdown and layout wireframe for each of your single-page dashboard views. You can use these descriptions, wireframe layouts, or convert them into a visual mockup (using a tool like Excalidraw, Figma, or a hand-drawn sketch) to include in your Milestone 1 `README.md` file.
 
 ---
 
@@ -141,4 +140,48 @@ To function properly, the application will need to store and manage the followin
 * **Shop Items:** Available cosmetics, prices, and unlock statuses.
 
 
-Core
+**Milestone 2 Submission**  
+**Live Application:** [https://<your-username>.github.io/ClassAndNotesProject/](https://<your-username>.github.io/ClassAndNotesProject/)
+
+---
+
+## 🌟 Overview
+
+**StudyQuest** is a single-page React application designed to transform study flashcard sets into an engaging RPG-style progression system. Users can review study sets, earn gold coins by answering questions in the game arena, track daily login streaks, and spend earned coins on custom cosmetic items in the shop.
+
+---
+
+## ✨ Features & Component Architecture
+
+### 7 Core Interactive Views
+1. **Dashboard (`dashboard`)**: Home view displaying user streak, coin balance, and quick navigation actions.
+2. **Study Sets (`studySets`)**: Displays saved study sets with category indicators, completion progress, and options to study, edit, or delete sets.
+3. **Game Arena (`game`)**: Interactive study mode where answering flashcard questions rewards players with gold coins.
+4. **Cosmetic Shop (`shop`)**: Virtual catalog where players spend coins on custom avatar accessories and borders.
+5. **Profile & Showcase (`profile`)**: Displays player stats, active cosmetics, and subject mastery percentages.
+6. **Create Set (`createSet`)**: Form interface for creating new flashcard study sets.
+7. **Edit Set (`editSet`)**: Interface for updating existing questions and answers within a study set.
+
+### Components & Data Structures
+* **`Navbar.jsx`**: Modular header navigation bar receiving `activeView`, `setActiveView`, and `coins` as props. Uses `.map()` to dynamically render navigation items and highlight active states while displaying live coin balances.
+* **`mockData.js`**: Centralized datasets providing initial state values:
+  * `initialProfile`: Tracks user progression (`Username`, `coins`, `streak`, `equippedAvatar`, `euippedBorder`).
+  * `initialStudySets`: Stores subject categories, mastery percentage (`progress`), and question/answer pairs.
+  * `shopItems`: Itemized catalog of purchasable avatar cosmetics and profile borders (`name`, `category`, `price`, `color`).
+
+---
+
+## 🎨 Theme & Palette
+
+The application uses custom CSS color variables defined in `src/index.css`:
+
+* **Background Dark Blue:** `#0f0f1a` (`var(--bg-darkblue)`)
+* **Card Container:** `#1e1e2e` (`var(--bg-card)`)
+* **Navigation Bar:** `#161622` (`var(--bg-nav)`)
+* **Purple (Primary Accent):** `#646cff` (`var(--color-purple)`)
+* **Gold (Coins/Rewards):** `#eab308` (`var(--color-gold)`)
+* **Green (Success/Actions):** `#22c55e` (`var(--color-green)`)
+* **Orange (Streak/Highlight):** `#ff9900` (`var(--color-orange)`)
+* **Blue (Secondary Buttons):** `#3b82f6` (`var(--color-blue)`)
+* **Red (Delete Actions):** `#ef4444` (`var(--color-red)`)
+* **Grey (Subtext/Borders):** `#94a3b8` (`var(--color-grey)`)

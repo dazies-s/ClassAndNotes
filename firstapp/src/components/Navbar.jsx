@@ -26,7 +26,7 @@ export default function Navbar({ activeView, setActiveView, coins }) {
         {navItems.map((item) => (
           <button
             key={item.id}
-            onClick={() => setActiveView(item.id)} // WHY: Updates parent state to switch the active view
+            onClick={() => setActiveView(item.id)} // Updates parent state to switch the active view
             style={{
               margin: '0 4px',
               padding: '8px 14px',
