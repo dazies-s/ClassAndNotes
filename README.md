@@ -32,10 +32,7 @@ This project is scoped to be realistically completed within an 8-week timeframe 
 * **Optional / Stretch Features:** Advanced multiplayer mini-games, complex backend database synchronization, or an extensive animated shop inventory.
 * **Anticipated Challenges:** Managing frontend state across multiple views (gameplay, shop, and profile dashboard) and cleanly mapping earned currency/stats back to the user profile.
 
-## 6. Initial UI Sketch
-
-
----
+## 6. My Initial UI Sketch
 
 ### 1. Dashboard / Home Page
 
@@ -90,8 +87,6 @@ This project is scoped to be realistically completed within an 8-week timeframe 
 
 
 
-
-
 ### 5. Edit Study Set Page
 
 * **Purpose:** Allows users to modify an existing study set by updating its title, category, or individual questions and answers.
@@ -141,17 +136,8 @@ To function properly, the application will need to store and manage the followin
 
 
 **Milestone 2 Submission**  
-**Live Application:** [https://<your-username>.github.io/ClassAndNotesProject/](https://<your-username>.github.io/ClassAndNotesProject/)
+**Live Application:** [https://dazies-s.github.io/ClassAndNotesProject/](https://dazies-s.github.io/ClassAndNotesProject/)
 
----
-
-## 🌟 Overview
-
-**StudyQuest** is a single-page React application designed to transform study flashcard sets into an engaging RPG-style progression system. Users can review study sets, earn gold coins by answering questions in the game arena, track daily login streaks, and spend earned coins on custom cosmetic items in the shop.
-
----
-
-## ✨ Features & Component Architecture
 
 ### 7 Core Interactive Views
 1. **Dashboard (`dashboard`)**: Home view displaying user streak, coin balance, and quick navigation actions.
@@ -169,11 +155,10 @@ To function properly, the application will need to store and manage the followin
   * `initialStudySets`: Stores subject categories, mastery percentage (`progress`), and question/answer pairs.
   * `shopItems`: Itemized catalog of purchasable avatar cosmetics and profile borders (`name`, `category`, `price`, `color`).
 
----
 
-## 🎨 Theme & Palette
+## My Theme & Palette
 
-The application uses custom CSS color variables defined in `src/index.css`:
+custom CSS color variables are defined in `src/index.css`:
 
 * **Background Dark Blue:** `#0f0f1a` (`var(--bg-darkblue)`)
 * **Card Container:** `#1e1e2e` (`var(--bg-card)`)
