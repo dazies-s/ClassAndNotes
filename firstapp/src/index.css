@@ -1,0 +1,29 @@
+/* my theme palette */
+:root {
+  --bg-darkblue: #0f0f1a;
+  --bg-card: #1e1e2e;
+  --bg-nav: #161622;
+  --color-purple: #646cff;
+  --color-darkblue: #1e293b;
+  --color-grey: #94a3b8;
+  --color-white: #ffffff;
+  --color-orange: #ff9900;
+  --color-blue: #3b82f6;
+  --color-green: #22c55e;
+  --color-red: #ef4444;
+  --color-gold: #eab308;
+}
+
+/* global font, background, and text colors */
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background-color: var(--bg-darkblue);
+  color: var(--color-white);
+  min-height: 100vh;
+}
+
+/* padding and borders so it doesn't look goofy , or just break*/
+body {
+  box-sizing: border-box;
+}
