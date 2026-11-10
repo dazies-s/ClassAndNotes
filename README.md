@@ -136,8 +136,7 @@ To function properly, the application will need to store and manage the followin
 
 
 **Milestone 2 Submission**  
-**Live Application:** [https://dazies-s.github.io/ClassAndNotesProject/](https://dazies-s.github.io/ClassAndNotesProject/)
-
+**Live Application:** Dont know how to deploy it
 
 ### 7 Core Interactive Views
 1. **Dashboard (`dashboard`)**: Home view displaying user streak, coin balance, and quick navigation actions.
