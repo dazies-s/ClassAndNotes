@@ -15,7 +15,7 @@ export default function Navbar({ activeView, setActiveView, coins }) {
       display: 'flex', 
       justifyContent: 'space-between', 
       alignItems: 'center', 
-      padding: '1rem 2rem', 
+      padding: '1rem 2rem', // room em: length unit based on the font size
       backgroundColor: 'var(--bg-nav)', 
       borderBottom: '2px solid var(--color-darkblue)' 
     }}>

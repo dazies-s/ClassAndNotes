@@ -149,7 +149,7 @@ To function properly, the application will need to store and manage the followin
 7. **Edit Set (`editSet`)**: Interface for updating existing questions and answers within a study set.
 
 ### Components & Data Structures
-* **`Navbar.jsx`**: Modular header navigation bar receiving `activeView`, `setActiveView`, and `coins` as props. Uses `.map()` to dynamically render navigation items and highlight active states while displaying live coin balances.
+* **`Navbar.jsx`**: header navigation bar receiving `activeView`, `setActiveView`, and `coins` as props. Uses `.map()` to dynamically render navigation items and highlight active states while displaying live coin balances.
 * **`mockData.js`**: Centralized datasets providing initial state values:
   * `initialProfile`: Tracks user progression (`Username`, `coins`, `streak`, `equippedAvatar`, `euippedBorder`).
   * `initialStudySets`: Stores subject categories, mastery percentage (`progress`), and question/answer pairs.

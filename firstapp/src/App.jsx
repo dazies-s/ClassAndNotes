@@ -412,7 +412,7 @@ export default function App() {
               gap: '1rem', 
               marginTop: '1.5rem' 
             }}>
-              {/* WHY: Dynamically render study sets using .map() and unique keys */}
+              {/* Dynamically render study sets using .map() and unique keys */}
               {studySets.map(set => (
                 <div 
                   key={set.id} 
@@ -466,7 +466,7 @@ export default function App() {
 
                     <button 
                       onClick={() => {
-                        // WHY: Filter out deleted study set to update state
+                        // Filter out deleted study set to update state
                         setStudySets(studySets.filter(s => s.id !== set.id));
                       }} 
                       style={{ 

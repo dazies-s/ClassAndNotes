@@ -38,7 +38,8 @@ export const initialStudySets = [
 ];
 
 
- //Mock catalog of cosmetics for the shop view where players spend coins.
+ //Mock catalog of cosmetics for the 
+ // shop view where players spend coins.
 
 export const shopItems = [
     { id: 1, name: "Cool Glasses", 
